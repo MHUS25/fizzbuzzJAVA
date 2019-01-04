@@ -22,5 +22,14 @@ public class FizzbuzzTest {
         Assert.assertEquals("Buzz", Fizzbuzz.eval(25));
     }
 
+    @Test
+    public void testNumber7() {
+        Assert.assertEquals("7", Fizzbuzz.eval(7));
+    }
+
+    @Test
+    public void testNumber11() {
+        Assert.assertEquals("11", Fizzbuzz.eval(11));
+    }
 
 }
