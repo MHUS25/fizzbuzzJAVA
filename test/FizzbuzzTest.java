@@ -10,4 +10,11 @@ public class FizzbuzzTest {
         Assert.assertEquals("FizzBuzz", Fizzbuzz.eval(30));
     }
 
+    @Test
+    public void testFizz() {
+        Assert.assertEquals("Fizz", Fizzbuzz.eval(6));
+        Assert.assertEquals("Fizz", Fizzbuzz.eval(9));
+    }
+
+
 }
